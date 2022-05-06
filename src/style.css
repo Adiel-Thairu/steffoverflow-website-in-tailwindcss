@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'nunito-bold';
+    src: url('font/Nunito-bold.ttf');
+}
+
+@font-face{
+    font-family: 'nunito-regular';
+    src: url('font/Nunito-regular.ttf');
+}
+    
+
+h1{
+    @apply text-7xl font-bold mb-12;
+}
+
+p{
+    @apply text-secondary;
+}
+
+.link{
+    @apply ml-8 font-nunito-bold hover:underline;
+}
